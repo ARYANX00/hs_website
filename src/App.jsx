@@ -7,6 +7,8 @@ import Team from "./sections/Team";
 import Hero from "./sections/Hero";
 import Aboutevent from "./sections/Aboutevent";
 import Team_intro from "./sections/Team_intro";
+import { SpeedInsights } from "@vercel/speed-insights/react"
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
       <Sponsors />
       <Team />
       <Footer />
+      <SpeedInsights/>
     </main>
   );
 }
