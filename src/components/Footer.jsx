@@ -108,6 +108,10 @@ export default function Footer() {
               alt=""
             />
           </button>
+
+          <div className="ccrt text-white absolute bottom-60">
+            <h5>Created By Bishal Ganguly</h5>
+          </div>
         </div>
       </div>
     </section>
